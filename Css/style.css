@@ -1,0 +1,376 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@font-face{
+
+	font-family: 'metropolis';
+	
+	src: url('../Fonts/metropolis/Metropolis-Regular.otf');
+	
+	
+	font-weight: normal;
+	
+	font-style: normal;
+	
+	}
+	font-face{
+
+		font-family: 'metropolis';
+		
+		src: url('../Fonts/metropolis/Metropolis-Black.otf');
+		
+		
+		font-weight:  Black;
+		
+		font-style: normal;
+		
+		}
+		font-face{
+
+			font-family: 'metropolis';
+			
+			src: url('../Fonts/metropolis/Metropolis-Bold.otf');
+			
+			
+			font-weight: bold;
+			
+			font-style: normal;
+			
+			}
+			font-face{
+
+				font-family: 'metropolis';
+				
+				src: url('../Fonts/metropolis/Metropolis-Medium.otf');
+				
+				
+				font-weight: medium;
+				
+				font-style: normal;
+				
+				}
+				font-face{
+
+					font-family: 'metropolis';
+					
+					src: url('../Fonts/metropolis/Metropolis-SemiBold.otf');
+					
+					
+					font-weight: semibold ;
+					
+					font-style: normal;
+					
+					}
+	
+header {
+	text-decoration: none;
+	background-color: white;
+	font-family: "Metropolis";
+}
+header li a{
+	text-decoration: none;
+	font-family: "Metropolis";
+	font-size: 17px;
+	line-height: 17px;
+	line-height: 100%;
+	text-align: left;
+	vertical-align: top;
+	color: #373737;
+	font-weight: 400;
+	width: 49px;
+	height: 17px;
+	top: 9px;
+}
+.button_nav{
+	width: 111px;
+	height: 42px;
+	background-color: none;
+	border:2px solid #717cff;
+	text-decoration: none;
+	font-family: "Metropolis";
+	border-radius: 11px;
+	font-size: 17px;
+	line-height: 17px;
+	line-height: 100%;
+	text-align: center;
+	vertical-align: top;
+	color: #505050;
+	font-weight: 400;
+	
+}
+
+/*header*/
+main{
+	background-color: white;
+	font-family: "metropolis";
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 38px;
+	line-height: 173%;
+	text-align: left;
+	vertical-align: top;
+	color: #7d7d7d;
+}
+h1{
+	font-family: "Metropolis";
+	font-weight: 900,Black;
+	font-size: 56px;
+	line-height: 56px;
+	font-style: black;
+	font-size: 56px;
+	text-align: left;
+	vertical-align: top;
+	color: #2f2f2f;
+}
+.h1Build{
+	font-family: "Metropolis";
+	font-weight: 900,Black;
+	font-size: 56px;
+	line-height: 56px;
+	font-style: black;
+	font-size: 56px;
+	text-align: left;
+	vertical-align: top;
+	color: #717cff;
+}
+
+button{
+	fill: #717cff;
+	width: 262px;
+	height: 64px;
+	font-family: "metropolis";
+	font-weight: 138px;
+	font-size: 22px;
+	line-height: 182%;
+	text-align: center;
+	vertical-align: top;
+	color: #ffff;
+}
+.twiter_icon{
+width: 20.67px;
+height: 17.66px;
+}
+.instagram_icon{
+width: 21.31px;
+height: 22.43px;
+}
+.facebook_icon{
+	width: 20.67px;
+	height: 17.66px;
+}
+.img_study{
+	width: 1049px;
+	height: 728px;
+}
+
+/*section 1*/
+h3{
+	font-family: "metropolis";
+	font-weight: 400;
+    size: 23px;
+	line-height: 23px;
+	letter-spacing: 2.1px;
+	text-align: center;
+	color: #373737;
+}
+.Macqua_logo{
+	width: 225px;
+	Height :67.61px;
+	Top :948px;
+	Left :128px;
+}
+.Charles_logo{
+	width: 225px;
+	height: 67.61px;
+}
+.Newcastel_logo{
+	width:224px ;
+	height: 79.21px;
+}
+.latrobe_logo{
+	width: 275px;
+	height: 62.45px;
+	top: 951px;
+	left: 1049px;
+}
+/*section 2*/
+h2{
+	font-family: "metropolis";
+	font-weight:bold;
+    size: 37px;
+	line-height: 146%;
+	text-align: center;
+	vertical-align: top;
+	color: #373737;
+}
+.icon_section3{
+	width: 76px;
+	height: 76px;
+}
+h4{
+	font-family: "metropolis";
+	font-weight: bold;
+    size: 24px;
+	line-height: 154%;
+	text-align: left;
+	vertical-align: top;
+	color: #37474f;
+}
+.text_typecart{
+	font-family: "metropolis";
+	font-weight: 400;
+    size: 16px;
+	line-height: 154%;
+	text-align: left;
+	vertical-align: top;
+	color: #37474f;
+}
+.aLearnMore{
+	text-decoration: none;
+	font-family: "metropolis";
+	font-weight: 400;
+    size: 17px;
+	line-height: 100%;
+	text-align: left;
+	vertical-align: top;
+	letter-spacing: 0.44px;
+	color: #717cff;
+
+}
+/*section 3*/
+.img_section4{
+	width: 344px;
+	height: 224px;
+}
+.Heading{
+	text-decoration: none;
+	font-family: "metropolis";
+	font-weight: 700,bold;
+	font-style: bold;
+    size: 22px;
+	line-height: 100%;
+	text-align: left;
+	vertical-align: top;
+	color: #252525;	
+}
+.icon.calenda{
+	width: 14.44px;
+	height: 15.2px;
+}
+/*sectin 6*/
+.photoAuthor{
+	width: 62px;
+	height: 62px;
+}
+.info2{
+	text-decoration: none;
+	font-family: "metropolis";
+	font-weight: 600,semi bold;
+	font-style: semi bold;
+    size: 22px;
+	line-height: 100%;
+	text-align: left;
+	vertical-align: top;
+	color: #37474f;	
+}
+.info3{
+	text-decoration: none;
+	font-family: "metropolis";
+	font-weight: 400,regular;
+	font-style: medium;
+    size: 18px;
+	line-height: 100%;
+	text-align: left;
+	vertical-align: top;
+	color: #374737;	
+}
+/*section7 */
+.button1{
+	background-color: #717cff;
+	border: none;
+	border-radius: 11px;
+	border-color: none;
+	stroke: none;
+	width: 262px;
+	height: 64px;
+	font-family: "metropolis";
+	font-weight: 138px;
+	font-size: 22px;
+	line-height: 182%;
+	text-align: center;
+	vertical-align: top;
+	color: #ffff;
+} 
+/*section 8*/
+footer{
+	background-color: #717cff;
+	text-decoration: none;
+	font-family: "metropolis";
+	font-weight: 400,regular;
+	font-style: medium;
+    size: 18px;
+	line-height: 178%;
+	text-align: left;
+	vertical-align: top;
+	color: #eee;		
+}
+.whiteLogo{
+	width: 160px;
+	height: 57px;
+}
+footer a{
+	text-decoration: none;
+	font-family: "metropolis";
+	font-weight: 400,regular;
+	font-style: medium;
+    size: 18px;
+	line-height: 178%;
+	text-align: left;
+	vertical-align: top;
+	color: #eee;	
+}
